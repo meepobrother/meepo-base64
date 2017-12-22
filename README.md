@@ -1,4 +1,4 @@
-# base64
+# [js-base64](https://github.com/dankogai/js-base64) 
 
 - 安装
 
