@@ -1,1 +1,16 @@
-<h2 class="title">welcome to use imeepos template form angular!</h2>
+<h2 class="title">待处理内容</h2>
+<textarea [(ngModel)]="source" class="meepo-textarea" placeholder="请输入待处理内容"></textarea>
+<a class="weui-btn weui-btn_default weui-btn_mini" (click)="encode()">encode</a>
+<a class="weui-btn weui-btn_default weui-btn_mini" (click)="encodeURI()">encodeURI</a>
+<a class="weui-btn weui-btn_default weui-btn_mini" (click)="decode()">decode</a>
+<a class="weui-btn weui-btn_default weui-btn_mini" (click)="atob()">atob</a>
+<a class="weui-btn weui-btn_default weui-btn_mini" (click)="btoa()">btoa</a>
+<a class="weui-btn weui-btn_default weui-btn_mini" (click)="fromBase64()">fromBase64</a>
+<a class="weui-btn weui-btn_default weui-btn_mini" (click)="toBase64()">toBase64</a>
+
+<a class="weui-btn weui-btn_default weui-btn_mini" (click)="btou()">btou</a>
+<a class="weui-btn weui-btn_default weui-btn_mini" (click)="utob()">utob</a>
+
+
+<h2 class="title">处理结果</h2>
+<textarea [(ngModel)]="result" class="meepo-textarea" placeholder="处理结果"></textarea>

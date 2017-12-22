@@ -3538,6 +3538,25 @@ media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
 
+meepo-core@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/meepo-core/-/meepo-core-2.1.2.tgz#dc768638114bda2aacbbe16d763e90dc6bf35dd6"
+  dependencies:
+    "@angular/common" "^5.1.0"
+    "@angular/core" "^5.1.0"
+    "@angular/forms" "^5.1.0"
+    "@angular/platform-browser" "^5.1.0"
+    "@nestjs/common" "^4.5.1"
+    "@nestjs/core" "^4.5.1"
+    "@nestjs/microservices" "^4.5.1"
+    "@nestjs/testing" "^4.5.1"
+    "@nestjs/websockets" "^4.5.1"
+    mysql "^2.15.0"
+    reflect-metadata "^0.1.10"
+    rxjs "^5.5.5"
+    typeorm "^0.1.9"
+    zone.js "0.8.4"
+
 mem@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/mem/-/mem-1.1.0.tgz#5edd52b485ca1d900fe64895505399a0dfa45f76"
