@@ -1,6 +1,6 @@
 {
     "name": "meepo-base64",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "base64 for angular service",
     "main": "./bundles/meepo.umd.js",
     "module": "./esm5/meepo.js",
