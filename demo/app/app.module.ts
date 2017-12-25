@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { MeepoCoreModule } from 'meepo-core';
 import { Base64Module } from '../../src/app/app';
-import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -11,9 +10,7 @@ import { FormsModule } from '@angular/forms';
   ],
   imports: [
     BrowserModule,
-    MeepoCoreModule.forRoot(),
-    Base64Module.forRoot(),
-    FormsModule
+    Base64Module
   ],
   providers: [],
   bootstrap: [AppComponent]

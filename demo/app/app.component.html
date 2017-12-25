@@ -1,5 +1,5 @@
 <h2 class="title">待处理内容</h2>
-<textarea [(ngModel)]="source" class="meepo-textarea" placeholder="请输入待处理内容"></textarea>
+<textarea #source class="meepo-textarea" placeholder="请输入待处理内容"></textarea>
 <a class="weui-btn weui-btn_default weui-btn_mini" (click)="encode()">encode</a>
 <a class="weui-btn weui-btn_default weui-btn_mini" (click)="encodeURI()">encodeURI</a>
 <a class="weui-btn weui-btn_default weui-btn_mini" (click)="decode()">decode</a>
@@ -13,4 +13,4 @@
 
 
 <h2 class="title">处理结果</h2>
-<textarea [(ngModel)]="result" class="meepo-textarea" placeholder="处理结果"></textarea>
+<textarea #result class="meepo-textarea" placeholder="处理结果"></textarea>
