@@ -2,8 +2,10 @@ import { Injectable } from '@angular/core';
 import { Base64 } from 'js-base64';
 @Injectable()
 export class Base64Service {
-
-    constructor() { }
+    time:any = new Date().getTime();
+    constructor() { 
+        console.log('base64 service',this.time);
+    }
 
     encode(s: string, uriSafe?: boolean): string {
         return Base64.encode(s, uriSafe);
